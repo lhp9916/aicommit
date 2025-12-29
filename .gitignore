@@ -1,0 +1,40 @@
+# Go 构建产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 主程序可执行文件
+aicommit
+
+# Go 测试二进制文件
+*.test
+
+# Go 依赖目录
+vendor/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+.env.local
+
+# 配置文件（如果包含敏感信息）
+# 注意：我们的配置文件在用户主目录，所以不需要忽略
+
+# 其他临时文件
+.tmp/
+.cache/
